@@ -54,7 +54,7 @@ Attributes are data stored inside a class or instance that represents the state 
 """
 class GuessA:
     pass
-g_1 = GuestA()
+g_1 = "roar"
 g_1.first = "Haha" #Attributes
 
 
@@ -99,5 +99,3 @@ p1.first = "Sweet"  #Instance Variables
 """
 ___init___ method is used to assign values to the properties and operations of object when it is being created
 """
-
-
