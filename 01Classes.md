@@ -23,7 +23,7 @@ class NewClass:
     pass
 ```
 
-### Pass
+## Pass
 **Pass** is a temporary placeholder for future code, which is used to prevent Identation Error
 
 
@@ -86,5 +86,5 @@ p1 = Honey()
 p1.first = "Sweet"  #Instance Variables
 ```
 
-## __init___ method
+## ___init___ method
 ___init___ method is used to assign values to the properties and operations of object when it is being created
