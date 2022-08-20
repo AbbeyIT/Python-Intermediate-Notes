@@ -23,7 +23,7 @@ class NewClass:
     pass
 ```
 
-## Pass
+### Pass
 **Pass** is a temporary placeholder for future code, which is used to prevent Identation Error
 
 
