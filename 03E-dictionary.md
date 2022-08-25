@@ -1,4 +1,4 @@
-## Dictionary
+# Dictionary
 **Dictionary** is a collection of unordered data, which is stored in key-value pairs.
 ```
 price_list = {
