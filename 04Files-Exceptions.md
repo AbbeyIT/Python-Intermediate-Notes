@@ -1,25 +1,27 @@
-# === Handling Creating Writing to a File === #
+# Handling Creating Writing to a File 
 
-#Files
-"""
->Files - are the named locations where you securely store your data 
-Types of Files
+## Files
+**Files** are the named locations where you securely store your data 
+
+**Types of Files**
 1. Binary Files - are used for storing media files, compiled code, or app data.
 2. Text Files - are readable to use (plain text, source code)
-"""
 
-#Functions used for files 
-"""
->open() function parameters
+
+## Functions used for files 
+**open() function parameters**
+```
 open() function has two parameters: 
     open(filename, mode)
+```
 
->How do we open a file?
+## How do we open a file?
 r(read), a(append), w(write), x(create)
 
 f = open("newfile.txt", "x") #x used to create new files
 
 ====
+
 f = open("newfile.txt", "w") #w opens the files for us to write. Also overwwrite existing content
 f.write("Python is easy!") #It can also be used to create new files. 
 
@@ -28,6 +30,7 @@ print(f.read())
 f.close()
 
 ====
+
 f= open("newfile.txt", "a") #a appends, or adds, to something. It can also used to create a new file
 
 f.write("Python Intermediate")
@@ -36,24 +39,22 @@ f = open("newfile.txt", "r")
 print(f.read())
 f.close()
 
-"""
 
+# Reading from a file
 
-# === Reading from a file === #
-"""
 r(read) - default value for python 
-FileNotFoundError - if the file doesn't exist
+**FileNotFoundError** - if the file doesn't exist
 
 f = open("newfile.txt", "rt") #access file 
 or
 f = open("newfile.txt")
 
-#example
+## example
 f = open("newfile.txt", "r") #file is an object
 print(f.read()) #file more 'r' return the whole text.
 """
 
-#Reading specific parts of a files
+## Reading specific parts of a files
 """
 f = open("newfile.txt", "r")
 print(f.read(12))
@@ -70,7 +71,7 @@ for x in f:
 f.close()
 """
 
-#Deleting a file
+## Deleting a file
 """
 >if not sure if the file exist
 import os
@@ -83,10 +84,10 @@ else:
 >if sure the file exists
 import os
 os.remove("newfile.txt")
-"""
 
 
-# === Exceptions === #
+
+# Exceptions 
 """
 Exception - is an object which tell you about the problem you encountered. It also provibes a traceback, which tells
 you specifically where you made a blunder in your code. 
