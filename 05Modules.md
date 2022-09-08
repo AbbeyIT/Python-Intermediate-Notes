@@ -1,14 +1,13 @@
-# === Modules === #
-"""
-Modules - is a Python object containing many different attributes. There are many different kind of modules, each with Python codes that we can reuse.
+# Modules 
+**Modules** - is a Python object containing many different attributes. There are many different kind of modules, each with Python codes that we can reuse.
 
-- Advantage of module -
->When you divide your code into modules, it will be easier to reuse, since they are already categorized.
->Modules can minimize our lines of code
+## Advantage of module 
+- When you divide your code into modules, it will be easier to reuse, since they are already categorized.
+- Modules can minimize our lines of code
 
->>import keywoard is used to import modules
+## import keywoard is used to import modules
 
-- How to create a module : open() function(thorugh a calculator) -
+> How to create a module : open() function(thorugh a calculator) -
 *main.py*
 f = open("module.py", "x) #same as files, but file name saved as .py
 
