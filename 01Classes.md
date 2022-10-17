@@ -1,7 +1,7 @@
 # Object-Oriented Programming
 
 **OOP** is a method or approach of organizing a program by grouping properties, methods and attributes into 
-indivisual objects
+individual objects.
 ```
 class Guest:
     def __init__(self, first, last,):
@@ -87,4 +87,4 @@ p1.first = "Sweet"  #Instance Variables
 ```
 
 ## ___init___ method
-___init___ method is used to assign values to the properties and operations of object when it is being created
+`___init___` method is used to assign values to the properties and operations of object when it is being created
