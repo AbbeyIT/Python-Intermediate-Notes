@@ -90,14 +90,14 @@ print(test_scores.get("cong")) #print "None" if it doesn't exist
 If you want to delete a key in the dictionary/code
 ```
 neighbors = {"Ms. Santos": "fruitcake", "Toni": "socks", "Alex": "vinegar"}
-print(neighbors)
+neighbors_pop = neighbors.pop("Ms. Santos")
+print(neighbors_pop)
 ```
 
 ## .keys()method
 If you want to get all the keys without their values 
 ```
 neighbors = {"Ms. Santos": "fruitcake", "Toni": "socks", "Alex": "vinegar"}
-done = neighbors.pop("Ms. Santos")
 y = neighbors.keys()
 print(y)
 ```
