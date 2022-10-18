@@ -17,6 +17,7 @@ open() function has two parameters:
 
 ## How do we open a file?
 > r(read), a(append), w(write), x(create)
+
 ```
 f = open("newfile.txt", "x") #x used to create new files
 ```
