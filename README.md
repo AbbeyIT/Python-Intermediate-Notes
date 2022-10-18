@@ -12,7 +12,7 @@ Notes by: [Abbey Santos](https://github.com/AbbeyIT)
 - [✔️] [Inheritance](02Inheritance.md)
 - [✔️] [E-Dictionary](03E-dictionary.md)
 - [✔️] [Files Exceptions](04Files-Exceptions.md)
-- [✔️] [Modules](04Modules.md)
+- [✔️] [Modules](05Modules.md)
 
 ## Coding Exercise:
 
