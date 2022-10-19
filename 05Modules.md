@@ -8,15 +8,18 @@
 ## import keywoard
 import keywoard is used to import modules
 > How to create a module : open() function(thorugh a calculator) 
+
 ```
 *main.py*
 f = open("module.py", "x) #same as files, but file name saved as .py
 ```
+
 ```
 *module.py*
 def greeting(name):
     print("Hey there, " + name + "! Ready to do some math?")
 ```
+
 ```
 *main.py*
 import module 
