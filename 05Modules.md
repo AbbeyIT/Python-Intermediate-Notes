@@ -128,6 +128,7 @@ print(t)
 ```
 
 - **strftime()** method - which will make strings out of our imported date objects. 
+
 ```
 import datetime 
 
