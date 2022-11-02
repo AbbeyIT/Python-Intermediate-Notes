@@ -17,6 +17,7 @@ Notes by: [Abbey Santos](https://github.com/AbbeyIT)
 ## Coding Exercise:
 
 I created this exercise to assess my knowledge of the intermidiate topics.
+- [✔️] [Inheritance](coding-exercise/02Inheritance.py)
 - [✔️] [E-Dictionary](coding-exercise/03e-dictionary.py)
 - [✔️] [Navigating in dictionaries](coding-exercise/03navigating-in-dictionaries.py)
 - [✔️] [Handling and creating file](coding-exercise/04.1handling-creating-file.py)
